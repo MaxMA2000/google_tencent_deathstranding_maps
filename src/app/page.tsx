@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Header from "@/components/Header";
 import MapCard from "@/components/MapCard";
 import HongKongMapCard from "@/components/HongKongMapCard";
+import ShenzhenTencentMapCard from "@/components/ShenzhenTencentMapCard";
 
 const mapData = [
   {
@@ -37,6 +38,7 @@ export default function Home() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <HongKongMapCard />
+          <ShenzhenTencentMapCard />
           {mapData.map((map, index) => (
             <MapCard 
               key={index}

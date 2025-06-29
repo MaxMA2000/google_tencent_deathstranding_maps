@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@map-component/react-tmap": "^0.1.4",
     "@react-google-maps/api": "^2.20.7",
     "framer-motion": "^12.19.2",
     "next": "15.3.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tlbs-map-react": "^1.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
