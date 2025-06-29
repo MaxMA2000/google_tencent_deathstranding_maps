@@ -3,12 +3,9 @@
 import { motion } from "framer-motion";
 import Header from "@/components/Header";
 import MapCard from "@/components/MapCard";
+import HongKongMapCard from "@/components/HongKongMapCard";
 
 const mapData = [
-  {
-    title: "Central Knot City",
-    description: "Urban center with extensive infrastructure and delivery networks"
-  },
   {
     title: "Mountain Region",
     description: "Treacherous terrain with steep cliffs and unpredictable weather patterns"
@@ -39,6 +36,7 @@ export default function Home() {
         </motion.div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <HongKongMapCard />
           {mapData.map((map, index) => (
             <MapCard 
               key={index}
