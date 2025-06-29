@@ -5,17 +5,8 @@ import Header from "@/components/Header";
 import MapCard from "@/components/MapCard";
 import HongKongMapCard from "@/components/HongKongMapCard";
 import ShenzhenTencentMapCard from "@/components/ShenzhenTencentMapCard";
+import DeathStrandingMapCard from "@/components/DeathStrandingMapCard";
 
-const mapData = [
-  {
-    title: "Mountain Region",
-    description: "Treacherous terrain with steep cliffs and unpredictable weather patterns"
-  },
-  {
-    title: "Timefall Farm",
-    description: "Agricultural zone with specialized facilities to harness timefall properties"
-  }
-];
 
 export default function Home() {
   return (
@@ -39,14 +30,8 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <HongKongMapCard />
           <ShenzhenTencentMapCard />
-          {mapData.map((map, index) => (
-            <MapCard 
-              key={index}
-              title={map.title}
-              description={map.description}
-              index={index}
-            />
-          ))}
+          <DeathStrandingMapCard />
+          
         </div>
         
         <motion.div 
