@@ -2,6 +2,8 @@
 
 A Next.js application featuring a sci-fi themed interface for exploring maps using both Google Maps and Tencent Maps APIs. The application showcases navigation capabilities with a dark, futuristic Death Stranding-inspired design.
 
+![Demo](demo.gif)
+
 ## Features
 
 - **Sci-Fi UI Theme**: Dark blue color scheme with glowing effects and grid overlays
